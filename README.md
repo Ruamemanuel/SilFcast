@@ -4,7 +4,7 @@ This is the official implementation for the Similarity-Based Local Learning Syst
 
 # ABSTRACT
 
-Time series forecasting is a critical tool for decision-making in a variety of domains. However, certain time series, particularly those representing social phenomena, present challenges due to irregular patterns and dynamic distributions. To address these complexities, this paper presents a Similarity-Based Local Learning System (SBLLS) designed to improve predictive accuracy and forecast interpretability.
+Time series forecasting is a critical tool for decision-making in a variety of domains. However, certain time series, particularly those representing social phenomena, present challenges due to irregular patterns and dynamic distributions. To address these complexities, the paper presents a Similarity-Based Local Learning System (SBLLS) designed to improve predictive accuracy and forecast interpretability.
 
 SBLLS leverages a local learning approach by identifying and utilizing the most relevant subsequences for each prediction based on their similarity to the test pattern. By focusing on localized data, the system adapts to changing distributions and captures nuanced temporal dependencies, enabling improved forecasting performance.
 
@@ -12,3 +12,30 @@ The experimental results demonstrate that SBLLS outperforms traditional inductiv
 
 # REQUIREMENTS
 
+ipykernel==6.29.5
+ipython==8.27.0
+matplotlib==3.9.2
+matplotlib-inline==0.1.7
+numpy==1.26.4
+pandas==2.2.2
+requests==2.32.3
+scikit-learn==1.5.1
+scikit-posthocs==0.9.0
+scipy==1.14.1
+seaborn==0.13.2
+
+# Usage 
+
+You can use main.py to run our SBLLS method on your dataset.
+
+```
+python main.py
+```
+
+# Reference
+
+If you use this code, please cite our paper:
+
+```
+******
+```
