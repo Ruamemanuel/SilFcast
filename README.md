@@ -1,6 +1,6 @@
-## SBLLS
+# SBLLS
 
-# RESUME
+## RESUME
 
 Time series forecasting is a critical tool for decision-making in a variety of domains. However, certain time series, particularly those representing social phenomena, present challenges due to irregular patterns and dynamic distributions. To address these complexities, this paper presents a Similarity-Based Local Learning System (SBLLS) designed to improve predictive accuracy and forecast interpretability.
 
