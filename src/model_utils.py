@@ -4,7 +4,6 @@ from sklearn.svm import SVR
 from sklearn.model_selection import GridSearchCV
 
 def train_local_model(train_windows, test_window, thresholds, cv_folds, rf_params, svr_params, min_observations=6):
-    """Train local models using dynamic window selection."""
     predictions = []
     threshold_metrics = {threshold: {'count': 0, 'mse_sum': 0, 'errors': []} for threshold in thresholds}
 
